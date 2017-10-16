@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="txt_titulo">Informe uma URL</string>
+    <string name="txt_btnGravarUrl">Gravar URL</string>
+    <string name="txt_tituloLigacao">Informe um Número</string>
+    <string name="txt_btnLigacao">Ligar</string>
+    <string name="txt_tituloGravarTexto">Informe uma messagem qualquer</string>
+    <string name="txt_btnGravarTexto">Gravar Texto</string>
+    <string name="txt_btnPagarPassagem">Pagar Passagem</string>
+    <string name="txt_btnRecarregarBilhete">Recarregar Bilhete</string>
+    <string name="txt_tituloPassagem">Informe um valor para recarga:</string>
+</resources>
