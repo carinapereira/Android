@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Bluetooth</string>
+    <string name="btnVerificar">Verificar e ativar Bluetooth</string>
+    <string name="txtBtnPareados">Listar dispositivos pareados</string>
+    <string name="txtBtnBuscar">Buscar dispositivos</string>
+    <string name="txtBtnVisivel">Tornar dispositivo visível</string>
+</resources>

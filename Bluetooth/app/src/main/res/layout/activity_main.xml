@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.carina.bluetooth.MainActivity">
+
+
+    <Button
+        android:id="@+id/btnVerificar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnVerificar" />
+
+    <Button
+        android:id="@+id/btnPareados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtBtnPareados" />
+
+    <Button
+        android:id="@+id/btnBuscarDispositivo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtBtnBuscar" />
+
+    <Button
+        android:id="@+id/btnVisivel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txtBtnVisivel" />
+</LinearLayout>
