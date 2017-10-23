@@ -21,7 +21,9 @@
         </activity>
         <activity android:name=".BluetoothCheckActivity" />
         <activity android:name=".ListaPareadosActivity" />
-        <activity android:name=".ListaDispositivosActivity"></activity>
+        <activity android:name=".ListaDispositivosActivity" />
+        <activity android:name=".BluetoothChatClienteActivity" />
+        <activity android:name=".BluetoothChatServidorActivity"></activity>
     </application>
 
 </manifest>

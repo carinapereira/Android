@@ -4,4 +4,6 @@
     <string name="txtBtnPareados">Listar dispositivos pareados</string>
     <string name="txtBtnBuscar">Buscar dispositivos</string>
     <string name="txtBtnVisivel">Tornar dispositivo visível</string>
+    <string name="txtBtnServidor">Iniciar servidor de Chat</string>
+    <string name="txtBtnEnviar">Enviar</string>
 </resources>

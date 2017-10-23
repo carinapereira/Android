@@ -98,6 +98,10 @@ public class ListaDispositivosActivity extends BluetoothCheckActivity implements
         BluetoothDevice device = listaDispositivos.get(position);
         String mag = device.getName()+" - "+device.getAddress();
         Toast.makeText(this, mag, Toast.LENGTH_LONG).show();
+
+        Intent i = new Intent(this, BluetoothChatClienteActivity.class);
+        i.putExtra(BluetoothDevice.EXTRA_DEVICE, device);
+        startActivity(i);
     }
 
     @Override

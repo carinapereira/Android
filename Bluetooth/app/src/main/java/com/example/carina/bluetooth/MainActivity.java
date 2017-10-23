@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-    private Button btnVerificar, btnPareados, btnBuscar, btnVisivel;
+    private Button btnVerificar, btnPareados, btnBuscar, btnVisivel, btnServidor;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +26,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         btnVisivel = (Button) findViewById(R.id.btnVisivel);
         btnVisivel.setOnClickListener(this);
+
+        btnServidor = (Button) findViewById(R.id.btnServidor );
+        btnServidor.setOnClickListener(this);
     }
 
     @Override
@@ -50,6 +53,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Intent intentVisivel = new Intent(BluetoothAdapter.ACTION_REQUEST_DISCOVERABLE);
                 intentVisivel.putExtra(BluetoothAdapter.EXTRA_DISCOVERABLE_DURATION, 300);
                 startActivity(intentVisivel);
+                break;
+            case R.id.btnServidor:
+                Intent intentIniciarServidor = new Intent(this, BluetoothChatServidorActivity.class);
+                startActivity(intentIniciarServidor);
                 break;
         }
     }
