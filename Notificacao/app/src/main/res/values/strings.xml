@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Notificação</string>
+    <string name="btnNotificacao">Notificação Simples</string>
+    <string name="btnNotificacaoGrande">Notificação Grande</string>
+    <string name="btnHeadsUp">Notificação HeadsUp</string>
+    <string name="btnProgresso">Notificação Progresso</string>
+    <string name="btnCancelar">Cancelar Notificação</string>
+    <string name="btnEnviarBroadcast">Enviar Broadcast</string>
+</resources>
