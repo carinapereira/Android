@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/activity_toolbar"
+    tools:context="com.example.carina.materialdesign.ToolbarActivity">
+
+    <include layout="@layout/toolbar_principal"/>
+
+    <ImageView
+        android:id="@+id/imgAnd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:adjustViewBounds="false"
+        android:clickable="true"
+        android:src="@mipmap/ic_launcher" />
+
+</LinearLayout>

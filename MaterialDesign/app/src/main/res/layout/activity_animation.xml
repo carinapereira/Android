@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_animation"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.carina.materialdesign.AnimationActivity"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/toolbar_principal"
+        android:id="@+id/toolbar"/>
+
+    <Button
+        android:id="@+id/btnTreinaWeb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Treinaweb" />
+
+    <Button
+        android:id="@+id/btnShow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/ripple"
+        android:text="Show" />
+
+    <Button
+        android:id="@+id/btnHide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/ripple_preenchido"
+        android:text="Hide" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+         android:id="@+id/img"
+        android:src="@drawable/imgboys"
+        android:transitionName="imgtransition"/>
+
+
+</LinearLayout>

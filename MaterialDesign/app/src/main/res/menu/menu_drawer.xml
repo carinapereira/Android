@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Meus Dados"
+        android:icon="@android:drawable/ic_menu_agenda"/>
+    <item android:title="Meus Cursos"
+        android:icon="@android:drawable/ic_menu_myplaces"/>
+    <item android:title="Novo Curso"
+        android:icon="@android:drawable/ic_menu_add"/>
+    <item android:title="Suporte">
+        <menu>
+            <item android:title="Dúvidas"
+                android:icon="@android:drawable/ic_menu_help"/>
+            <item android:title="Reportar Erro"
+                android:icon="@android:drawable/ic_menu_info_details"/>
+        </menu>
+    </item>
+</menu>
